@@ -50,7 +50,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ClassDiagram.Core.Product">
-    <Position X="3.25" Y="3.5" Width="1.5" />
+    <Position X="3" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAgAAAAABAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Product.cs</FileName>
@@ -73,7 +73,7 @@
   <Class Name="ClassDiagram.Core.User">
     <Position X="4.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACCAAAAAQAAAAAAQABAAAAAACAAAAIAAAAAA=</HashCode>
+      <HashCode>AAAAIAAACGAAAAAQAAAAAAQABAAAAAACAAIAIEAFABE=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
