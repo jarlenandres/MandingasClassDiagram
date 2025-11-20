@@ -8,6 +8,10 @@ namespace ClassDiagram.Core
 {
     internal class Product
     {
+        private int _idProduct;
+        private string _name;
+        private decimal _price;
+        private string _description;
         public int IdProduct { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
