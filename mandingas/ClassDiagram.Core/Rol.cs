@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassDiagram.Core
 {
-    internal class Rol
+    internal class Rol : User
     {
         public int IdRol { get; set; }
         public string Name { get; set; }

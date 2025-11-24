@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassDiagram.Core
 {
-    internal class State
+    internal class State : Order
     {
         public int IdState { get; set; }
         public string Name { get; set; }

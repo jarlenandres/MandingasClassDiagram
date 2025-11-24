@@ -1,6 +1,6 @@
 ﻿namespace ClassDiagram.Core
 {
-    public class User
+    public abstract class User
     {
         private int _idUser;
         private int _document;
@@ -19,5 +19,9 @@
         public string Address { get; set; }
         public string Email { get; set; }
         public int IdRol { get; set; }
+
+        public abstract string GetAdd();
+        public abstract string GetUpdate();
+        public abstract string GetDelete();
     }
 }

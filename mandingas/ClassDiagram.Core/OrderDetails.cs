@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassDiagram.Core
 {
-    internal class OrderDetails
+    internal class OrderDetails : Product
     {
         public int IdDetalle { get; set; }
         public int IdPedido { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassDiagram.Core
 {
-    internal class Order
+    internal class Order : OrderDetails
     {
         public int IdOrder { get; set; }
         public DateTime Date { get; set; }
@@ -22,5 +22,18 @@ namespace ClassDiagram.Core
         public State State { get; set; }
 
         public List<OrderDetails> Details { get; set; } = new();
+
+        public string GetAdd()
+        {
+            throw new NotImplementedException();
+        }
+        public string GetUpdate()
+        {
+            throw new NotImplementedException();
+        }
+        public string GetDelete()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
